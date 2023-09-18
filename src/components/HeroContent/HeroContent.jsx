@@ -48,7 +48,7 @@ export const HeroContent = () => {
           src={HeroImg}
           alt={`${name} ${surname}`}
           priority
-          quality={100}
+          quality={70}
           style={{ width: '100%', height: 'auto' }}
         />
       </div>
