@@ -10,12 +10,6 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      {/* <AboutCompany />
-      <Services />
-      <Process />
-      <Partners />
-      <Reviews />
-      <Contacts /> */}
     </>
   );
 }
