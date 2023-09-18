@@ -4,7 +4,7 @@
 // import { Process } from '@/sections/Process';
 // import { Partners } from '@/sections/Partners';
 import { Reviews } from '@/sections/Reviews';
-// import { Contacts } from '@/sections/Contacts';
+import { Contacts } from '@/sections/Contacts';
 
 export default async function Home() {
   return (
@@ -15,7 +15,7 @@ export default async function Home() {
       <Process />
       <Partners /> */}
       <Reviews />
-      {/* <Contacts /> */}
+      <Contacts />
     </>
   );
 }
