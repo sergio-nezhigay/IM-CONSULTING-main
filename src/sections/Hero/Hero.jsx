@@ -10,7 +10,7 @@ export const Hero = () => {
     <section id={id} className=" xl:h-[707px] xl:w-full">
       <div
         className="xl:h-[707px] xl:w-full xl:fixed w-full -z-10 
-      sm:hero-bgcolor h-[344px] md:h-[570px]"
+      sm:hero-bgcolor h-[344px] md:h-[570px] overflow-hidden"
       >
         <Container className="hero-bg pt-[74px] md:pt-[120px] xl:pt-[168px] h-full w-full">
           <HeroContent />
