@@ -52,7 +52,7 @@ export const PartnersSwiper = () => {
             alt={partner.alt}
             width={partner.width}
             height={partner.height}
-            quality={85}
+            quality={100}
             className="h-[24px] w-min md:h-[36px] xl:h-[48px] object-contain object-left"
             placeholder="blur"
             blurDataURL={`data:image/svg+xml;base64,${toBase64(
