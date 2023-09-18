@@ -3,7 +3,7 @@ import { AboutCompany } from '@/sections/AboutCompany';
 import { Services } from '@/sections/Services';
 import { Process } from '@/sections/Process';
 // import { Partners } from '@/sections/Partners';
-// import { Reviews } from '@/sections/Reviews';
+import { Reviews } from '@/sections/Reviews';
 import { Contacts } from '@/sections/Contacts';
 
 export default async function Home() {
@@ -13,8 +13,8 @@ export default async function Home() {
       <AboutCompany />
       <Services />
       <Process />
-      {/*   <Partners />
-      <Reviews /> */}
+      {/*   <Partners />*/}
+      <Reviews />
       <Contacts />
     </>
   );
