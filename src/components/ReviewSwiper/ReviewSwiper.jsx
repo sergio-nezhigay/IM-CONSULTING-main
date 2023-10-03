@@ -7,6 +7,7 @@ import 'swiper/css/scrollbar';
 import { ReviewCard } from '../ReviewCard';
 import '@/styles/swiper-scrollbar.css';
 import reviews from '@/data/home/reviews.json';
+import MyComponent from '../MyComponent/myComponent';
 
 export const ReviewSwiper = () => {
   const swiperParams = {
@@ -30,14 +31,21 @@ export const ReviewSwiper = () => {
   };
 
   return (
-    <div className="overflow-x-clip">
-      <Swiper {...swiperParams}>
-        {reviews.map(({ name, ...rest }) => (
-          <SwiperSlide key={name} tag="li" className="font-light cursor-swiper">
-            <ReviewCard name={name} {...rest} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <>
+      {/* <MyComponent /> */}
+      <div className="overflow-x-clip">
+        <Swiper {...swiperParams}>
+          {reviews.map(({ name, ...rest }) => (
+            <SwiperSlide
+              key={name}
+              tag="li"
+              className="font-light cursor-swiper"
+            >
+              <ReviewCard name={name} {...rest} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </>
   );
 };

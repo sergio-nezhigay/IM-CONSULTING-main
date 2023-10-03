@@ -9,7 +9,7 @@ const { text: stat2Text, number: stat2Number } = stat2;
 
 export const HeroContent = () => {
   return (
-    <>
+    <div className="xl:flex xl:flex-col xl:justify-between">
       <div className=" flex justify-between mb-[26px] md:mb-[62px] xl:mb-[232px]">
         <p className=" text-xs md:text-[28px] xl:text-[24px] text-accent max-w-[94px] md:max-w-[224px] xl:max-w-[270px] leading-[15px] md:leading-[28px] xl:leading-[24px]">
           {subtitle}
@@ -52,6 +52,6 @@ export const HeroContent = () => {
           style={{ width: '100%', height: 'auto' }}
         />
       </div>
-    </>
+    </div>
   );
 };
